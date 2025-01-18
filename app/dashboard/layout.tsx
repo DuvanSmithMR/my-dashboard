@@ -1,4 +1,3 @@
-// https://www.creative-tim.com/twcomponents/component/dashboard-navigation
 export default function DashboardLayout({
     children
 }: {
