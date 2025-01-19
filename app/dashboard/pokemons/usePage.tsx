@@ -17,7 +17,7 @@ const getPokemons = async (
 };
 
 export const usePage = async () => {
-  const pokemons = await getPokemons();
+  const pokemons = await getPokemons(100);
   return {
     pokemons,
   };
